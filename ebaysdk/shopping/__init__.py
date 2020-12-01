@@ -124,6 +124,7 @@ class Connection(BaseConnection):
             'getmultipleitemsresponse.variations.variation',
             'getsingleitemresponse.variations.pictures',
             'getmultipleitemsresponse.variations.pictures',
+            'getmultipleitemsresponse.item.businesssellerdetails',
         ]
 
     def build_request_headers(self, verb):
